@@ -1,4 +1,4 @@
-def dna_token(dna_string, kmer, step):
+def dna_kmer(dna_string, kmer, step):
     print(dna_string)
 
     kmerized = ""
@@ -9,5 +9,5 @@ def dna_token(dna_string, kmer, step):
 
 if __name__ == "__main__":
     dna = "ACTGTCGTACAGTGACCAGTGGTAGT"
-    kmerized_dna = dna_token(dna, 5, 1)
+    kmerized_dna = dna_kmer(dna, 5, 1)
     print(kmerized_dna)

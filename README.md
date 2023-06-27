@@ -2,6 +2,9 @@
 
 Example:
 ```
+def dna_token(dna_string, kmer, step)
+
+
 dna = "ACTGTCGTACAGTGACCAGTGGTAGT"
     kmerized_dna = dna_token(dna, 5, 1)
 ```
